@@ -19,10 +19,10 @@ const HomeTabs = createBottomTabNavigator({
     Home: {
       screen: Home,
       options: {
-        title: 'Feed',
+        title: 'DietWithBrandon',
         tabBarIcon: ({ color, size }) => (
           <Image
-            source={newspaper}
+            source={bell}
             tintColor={color}
             style={{
               width: size,
@@ -35,6 +35,7 @@ const HomeTabs = createBottomTabNavigator({
     Updates: {
       screen: Updates,
       options: {
+        title: 'Shop page',
         tabBarIcon: ({ color, size }) => (
           <Image
             source={bell}

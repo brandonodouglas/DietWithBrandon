@@ -30,7 +30,13 @@
           "backgroundColor": "#ffffff",
           "image": "./assets/splash-icon.png"
         }
-      ]
-    ]
+      ],
+      "expo-sqlite"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "8e2502b9-e20e-48c0-aa43-07b983d5e6e1"
+      }
+    }
   }
 }

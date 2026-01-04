@@ -4,7 +4,7 @@ import { StyleSheet, View } from 'react-native';
 export function Updates() {
   return (
     <View style={styles.container}>
-      <Text>Updates Screen</Text>
+      <Text>Shop page screen</Text>
     </View>
   );
 }
